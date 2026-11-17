@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PhotoView">
+        <!-- 0 = crop from the top, 0.5 = centre, 1 = bottom -->
+        <attr name="verticalBias" format="float" />
+    </declare-styleable>
+    <declare-styleable name="Button3D">
+        <!-- Depth of the 3D shadow under the face; the view is face height + this. -->
+        <attr name="shadowDepth" format="dimension" />
+        <!-- How far the face (and its icon/label) moves down when pressed. -->
+        <attr name="pressShift" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="GlowView">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="growBy" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="HoldRingView">
+        <attr name="ringStroke" format="dimension" />
+        <attr name="progressColor" format="color" />
+        <attr name="trackColor" format="color" />
+    </declare-styleable>
+    <!-- The resting plaque: shadowDepth as Button3D; pressShift is how far the face drops in the tap reaction. -->
+    <declare-styleable name="RestPlaqueView">
+        <attr name="shadowDepth" />
+        <attr name="pressShift" />
+        <attr name="cornerRadius" />
+    </declare-styleable>
+    <!-- The voice rings: how far the photo frame is inset from the view's edges. -->
+    <declare-styleable name="VoiceRingsView">
+        <attr name="ringInset" format="dimension" />
+    </declare-styleable>
+</resources>

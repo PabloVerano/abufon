@@ -1,0 +1,29 @@
+# Copy to abufon.properties and fill in. abufon.properties is gitignored.
+# The Portal's own SIP account (it registers with this).
+PORTAL_SIP=sip:portal-username@sip.linphone.org
+PORTAL_PASSWORD=change-me
+# The only caller that is accepted, and the only number the button calls.
+GRANNY_SIP=sip:granny-username@sip.linphone.org
+GRANNY_NAME=Abuela
+# true = answer granny automatically after a 5 second countdown.
+AUTO_ANSWER=false
+# Optional. Countdown before auto-answer (the designer suggests 3), and how long an
+# outgoing call rings before showing "No contestó".
+AUTO_ANSWER_SECONDS=5
+CALL_TIMEOUT_SECONDS=30
+# Optional. How audio and video are encrypted: srtp (default) or zrtp (end to end; granny's
+# Linphone app may ask her to confirm a short code on the first call). Calls are never unencrypted.
+MEDIA_ENCRYPTION=srtp
+# Optional. While granny's call rings, the media volume is raised to at least this percent
+# (and put back afterwards). 0 = never touch the volume.
+RING_MIN_VOLUME_PERCENT=60
+# Optional. Pin the app (Android screen pinning) so swipes can't leave it.
+# Without device-owner setup Android asks for confirmation each time it pins.
+KIOSK=false
+# Optional. Record each call (both sides mixed, audio only) on the Portal, to diagnose audio
+# problems: Android/data/com.abufon.app/files/recordings/, readable with adb pull. Recordings
+# never leave the device and are deleted after RECORD_KEEP_DAYS days (and kept under 1 GB).
+RECORD_CALLS=true
+RECORD_KEEP_DAYS=3
+# Granny's photo: put granny_photo.jpg (or .png) in the project root, next to this file. Square
+# works best, face in the middle. It is gitignored; without it a neutral placeholder is used.

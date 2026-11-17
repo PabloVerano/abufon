@@ -1,0 +1,16 @@
+.gradle/
+build/
+local.properties
+abufon.properties
+*.iml
+.idea/
+
+# Not published
+trailer/
+screenshots/
+design-review/
+.DS_Store
+
+# Granny's real photo (see README) and the copy the build uses
+/granny_photo.*
+app/photo-res/

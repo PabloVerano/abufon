@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Designer palette (granny_portal_android_assets_v4) -->
+    <color name="gp_green">#169C46</color>
+    <color name="gp_green_shadow">#0D7034</color>
+    <color name="gp_green_glow">#66169C46</color>
+    <color name="gp_red">#B91C1C</color>
+    <color name="gp_red_shadow">#7F1414</color>
+    <color name="gp_navy">#25466D</color>
+    <color name="gp_text_secondary">#33465C</color>
+    <color name="gp_text_hint">#4A5B70</color>
+    <color name="gp_white">#FFFFFF</color>
+    <color name="gp_retry_shadow">#C3CCD9</color>
+    <color name="gp_frame">#FFFFFF</color>
+    <color name="gp_frame_offline">#F3F5F8</color>
+    <color name="gp_frame_shadow">#2E25466D</color>
+    <color name="gp_chip_bg">#E6FFFFFF</color>
+    <color name="gp_hold_track">#FFFFFF</color>
+    <color name="gp_hold_progress">#25466D</color>
+    <color name="gp_sky_day">#E2F1FA</color>
+    <color name="gp_sky_incoming">#FFF4DE</color>
+    <color name="gp_sky_offline">#E1E6EF</color>
+    <color name="gp_bird_blue">#4C8BC4</color>
+    <!-- v4 -->
+    <color name="gp_rest_plaque">#3A4F7A</color>
+    <color name="gp_rest_plaque_pressed">#34476E</color>
+    <color name="gp_rest_plaque_shadow">#26385A</color>
+    <color name="gp_rest_moon">#F5CF8E</color>
+    <color name="gp_rest_pause_icon">#E7E1F3</color>
+    <color name="gp_sky_rest">#E7E1F3</color>
+    <color name="gp_photo_tint">#473A4F7A</color>
+    <color name="gp_badge_moon">#3A4F7A</color>
+    <color name="gp_badge_mail">#E9A64B</color>
+    <color name="gp_badge_camera">#25466D</color>
+    <color name="gp_rest_note">#8E82C4</color>
+    <color name="gp_voice_ring">#E6FFFFFF</color>
+    <color name="gp_voice_ring_outer">#8CFFFFFF</color>
+    <color name="gp_scrim">#9E101C30</color>
+    <color name="gp_scrim_light">#8C101C30</color>
+    <color name="gp_parent_bg">#F3F5F9</color>
+    <color name="gp_parent_card">#FFFFFF</color>
+    <color name="gp_parent_border">#DDE3EB</color>
+    <color name="gp_parent_divider">#E6EAF0</color>
+    <color name="gp_parent_text">#1B2A3D</color>
+    <color name="gp_control_border">#C9D2DF</color>
+    <color name="gp_key_shadow">#DDE3EB</color>
+    <color name="gp_key_muted">#EEF1F6</color>
+    <color name="gp_navy_pressed">#1C3758</color>
+    <color name="gp_navy_shadow">#162D4A</color>
+    <color name="gp_error">#B91C1C</color>
+    <color name="gp_error_bg">#FDF1F1</color>
+    <color name="gp_status_ok_bg">#E3F3E8</color>
+    <color name="gp_status_ok_icon">#0D7034</color>
+    <color name="gp_status_off_bg">#EEF1F6</color>
+    <color name="gp_status_off_icon">#4A5B70</color>
+    <color name="gp_schedule_track">#E6EAF0</color>
+    <color name="gp_schedule_fill">#5E7FA8</color>
+    <color name="gp_now_marker">#E9A64B</color>
+    <color name="gp_wheel_band">#EEF1F6</color>
+    <color name="gp_wheel_near">#8A97A8</color>
+    <color name="gp_wheel_far">#B3BDCB</color>
+    <color name="gp_switch_off">#C9D2DF</color>
+    <!-- App -->
+    <color name="bg">#E2F1FA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
